@@ -1,0 +1,73 @@
+/* Customizes the default Bootstrap colours */
+
+:root {
+    --bs-primary: #0c1990;
+    --bs-primary-rgb: 12,25,144;
+    --bs-secondary: #76a4ff;
+    --bs-secondary-rgb: 118,164,255;
+}
+
+/* Specifies the font styles and sizes, including the website's background image */
+
+h1,h2 {
+    font-family: 'Luxurious Script', cursive;
+}
+
+.display-6 {
+    font-size: 1.5em;
+}
+
+body {
+    background: url(../images/space-2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+/* Background images for the services page */
+
+.web-dev {
+    background: url(../images/services-web.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.ux {
+    background: url(../images/services-ux.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.graphic {
+    background: url(../images/services-graphic.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Styles the navigation */
+
+.active {
+    background-color: var(--bs-primary);
+    color: var(--bs-light) !important;
+}
+
+.nav-link {
+    color: var(--bs-black)
+}
+
+.nav-link:hover {
+    background-color: var(--bs-light);
+    color: var(--bs-primary) !important;
+}
+
+/* Styles the buttons */
+
+.btn-secondary {
+    --bs-btn-bg: var(--bs-secondary);
+    --bs-btn-hover-bg: var(--bs-light);
+    --bs-btn-active-bg: var(--bs-secondary);
+    --bs-btn-active-border-color: var(--bs-secondary);
+    --bs-btn-disabled-bg: var(--bs-secondary);
+    --bs-btn-disabled-border-color: var(--bs-secondary);
+}
