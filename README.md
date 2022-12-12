@@ -11,7 +11,8 @@ Since this was my first time using Bootstrap for a major project, I had to famil
 Through this process, I have realized that Bootstrap makes it easier to design a website. The framework is quite straightforward and useful. Moreover, there are a lot of customization options that can be utilized to create a unique and personalized theme for a website. 
 
 ## References
-- **Stock Images** : All images on this website were taken from Pixabay and Pexels
 - **Frameworks/Libraries** : Bootstrap and Tailwind CSS
 - **Fonts** : Google Fonts (Luxurious Script)
-- **Icons** : Bootstrap  
+- **Icons** : Bootstrap
+- **Stock Images** : All images on this website were taken from Pixabay and Pexels
+- **Additional Information** : The blue image banners on the Services page contain stock images from Pixabay and Pexels. However, I have edited (i.e., cropped and re-coloured) them using Adobe XD  
