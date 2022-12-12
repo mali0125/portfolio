@@ -1,0 +1,4 @@
+- Stock Images : All images on this website were taken from Pixabay and Pexels
+- Frameworks/Libraries : Bootstrap and Tailwind CSS
+- Fonts : Google Fonts (Luxurious Script)
+- Icons : Bootstrap 
