@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Links Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Links Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- Links a handwriting Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap" rel="stylesheet">
+    <!-- Links a CSS stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<!-- This website will have a dark theme, with white text -->
+<body class="bg-black text-white">
+    <div class="container-lg p-0">
+      <ul role="list" class="visually-hidden-focusable bg-primary p-4">
+        <li role="listitem"><a href="#nav" aria-label="Skip to the main navigation">Skip to main nav</a></li>
+        <li role="listitem"><a href="#main" aria-label="Skip to the main content">Skip to main content</a></li>
+      </ul>
+      <header role="banner">
+        <h1 role="heading" class="bg-primary p-5 m-0 text-center display-1">Zarmeen Design</h1>
+        <nav role="navigation" id="nav" class="navbar navbar-expand-lg bg-secondary p-0">
+                <ul role="list" class="navbar-nav w-100 text-center fs-5">
+                  <li role="listitem" class="nav-item">
+                    <a class="nav-link px-4" href="index.html">Home</a>
+                  </li>
+                  <li role="listitem" class="nav-item">
+                    <a class="nav-link active px-4" aria-current="page" href="about.html">About</a>
+                  </li>
+                  <li role="listitem" class="nav-item">
+                    <a class="nav-link px-4" href="services.html">Services</a>
+                  </li>
+                </ul>
+          </nav>
+    </header>
+        <main role="main" id="main" class="bg-black bg-opacity-75 mt-5 py-2">
+            <!-- Presents the overview of the business first, due to its' importance -->
+            <article role="article">
+                <div class="px-5 pt-5">
+                  <h2 role="heading" class="display-2">About</h2>
+                  <p role="paragraph">We specialize in Interactive Media Design Projects. This includes Web Development, User Experience Design, and Graphic Design. Our services reflect a strong attention to detail, creativity, and a firm understanding of the foundational elements that are involved.</p>
+                </div>  
+            </article>
+            <!-- Presents the Mission and Vision statements in a way that draws attention -->
+            <section class="card m-5 bg-primary bg-opacity-75">
+              <div class="row g-0">
+                <div class="col-lg-5">
+                  <!-- Adds an image to make the about page more appealing -->
+                  <picture>
+                    <source
+                      srcset=
+                        "images/rose-320_x_212.jpg,
+                        images/rose-640_x_424.jpg 2x"
+                      media="(max-width: 320px)"/>
+                    <source
+                      srcset=
+                        "images/rose-720_x_477.jpg,
+                        images/rose-1440_x_954.jpg 2x"
+                      media="(max-width: 720px)"/>
+                    <source
+                      srcset=
+                        "images/rose-1280_x_848.jpg,
+                        images/rose-2560_x_1696.jpg 2x"
+                      media="(min-width: 1280px)"/>
+                    <source
+                      srcset=
+                        "images/rose-960_x_636.jpg,
+                        images/rose-1920_x_1272.jpg 2x"
+                      media="(min-width: 960px)"/>
+                    <img 
+                      src="images/rose.jpg" 
+                      class="img-fluid rounded-start" 
+                      role="img"
+                      alt="blue rose with water droplets">
+                  </picture>
+                </div>
+                <div class="col-lg-7">
+                  <div class="card-body">
+                    <h3 role="heading" class="border-bottom border-secondary border-3 display-6">Mission Statement</h3>
+                    <p role="paragraph" class="pb-3">Provide excellent service with careful consideration of a client's needs.</p>
+                    <h3 role="heading" class="border-bottom border-secondary border-3 display-6">Vision</h3>
+                    <p role="paragraph">Create content that is original, unique, and imaginative.</p>
+                  </div>
+                </div>
+              </div> <!-- Closes .row... -->
+            </section>
+        </main>
+    </div>
+    <a href="#top" aria-label="Go back to the top">
+      <i class="animate-pulse display-5 bg-secondary text-black rounded-start px-3 py-2 sticky-bottom bottom-40 start-100 bi-arrow-up" role="generic"></i>
+    </a>
+    <div class="container-lg p-0">
+      <footer class="bg-primary text-center p-5">Copyright &copy; 2022 Zarmeen Design</footer>
+    </div>
+    <!-- Tailwind JS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
